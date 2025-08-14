@@ -2,36 +2,40 @@
 
 ## 🔎 Image Overview
 - **Filename:** Forensics-image.png
-- **File Size:** _value_
-- **Image Dimensions:** _value_
+- **File Size:** 1144 kB
+- **Image Dimensions:** 1439 x 753
 
 ## 📸 Camera Info
-- **Make:** _value_
-- **Model:** _value_
+- **Make:** NA
+- **Model:** NA
 
 ## 🌍 Geolocation (If Available)
-- **GPS Lat/Long:** _value_
-- **Maps Link:** [Google Maps](link)
+- **GPS Lat/Long:** NA
+- **Maps Link:** NA
 
 ## 🕐 Timestamps
-- **DateTimeOriginal:** _value_
-- **ModifyDate:** _value_
+- **DateTimeOriginal:** NA
+- **ModifyDate:** 2021:04:21 11:06:39
 
 ## 📝 Software/Comments
-- **Editing Software:** _value_
-- **Comment Field:** _value_
+- **Editing Software:** NA
+- **Comment Field:** NA
 
 ## 🔐 SHA256 Hash
-- `_your calculated hash_`
+- efecb358e1ade19d08acf1126b846971982fb8b3a82f67bdf7401a8972fd241a
 
 ## 🧠 Inference
-_Is the image original? Any signs of manipulation? Justify with metadata (e.g., Software tag, timestamps, GPS)._
+The image is likely not an original camera photo.
+Missing Make and Model fields → No direct camera information.
+Missing DateTimeOriginal but present ModifyDate → Suggests editing or file re-saving.
+Software tag shows GIMP 2.10.24 → Indicates image was processed or created in an editor.
+No GPS coordinates embedded → Either removed or never recorded.
 
 ## 🖼️ Screenshots
 > Add snippets of your terminal commands and outputs here:
->
-> ![ExifTool basic output](screenshots/exiftool-basic.png)
-> ![SHA256 command](screenshots/sha256.png)
+>![Filename,filesize,imagesize](screenshots/image-overview.png)
+> ![ExifTool basic output](screenshots/exifbasic.png)
+> ![SHA256 command](screenshots/image hash.png)
 
 ---
 
